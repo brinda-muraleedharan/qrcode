@@ -1,5 +1,5 @@
 .whole-container{
-    width: 16%;
+    width: 16vw;
     /*height:70%;*/
     background-color   :#ffffff ;
     padding: 10px;
@@ -13,7 +13,7 @@ img,picture,video {
   max-width: 100%;
   border-radius: 10px;
   max-height: 34% !important;
-  display: table;
+  /*height: 16vw;*/
 }
 #main-heading{
     font-size: 18px;
@@ -28,11 +28,15 @@ body{
     background-color: #d1e2eb;
     font-size: 14px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .whole-container{
         width: 80%;
         height:100%;
         margin-top: 15%;
         margin-left: 10%;
+        font-size: 12px;
+    }
+    #main-heading{
+        font-size: 16px;
     }
 }
